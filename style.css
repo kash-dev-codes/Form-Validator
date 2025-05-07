@@ -6,6 +6,9 @@
   font-family: "Tagesschrift", system-ui;
   font-weight: 400;
   font-style: normal;
+  margin: 0 0;
+  padding: 0 0;
+  border: 0 0;
   } 
 
 body {
@@ -13,6 +16,9 @@ body {
   font-style: normal;
   background-color: #f9fafb;
   display: flex;
+  align-items:center;
+  justify-content:center;
+  min-height: 100vh;
   }
 
 h2 {
@@ -20,6 +26,9 @@ h2 {
   font-weight: 400;
   font-style: normal;
   background-color: #f9fafb;
-  display: flex;
+  }
+
+.container{
+  background-color:#fff;
   }
 
